@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movies DB</title>
+
+    <link rel="stylesheet" href="/assets/styles/reset.css">
+    <link rel="stylesheet" href="/assets/styles/global.css">
+</head>
+
+<body>
+    
+    <header class="header">
+        <h1 class="header__title">Filmes Populares</h1>
+        <div class="header__search-bar">
+            <input class="search-bar__input" type="search" placeholder="Digite algum filme para pesquisar...">
+            <img class="search-bar__icon" src="./assets/img/search-icon.svg" alt="Buscar">
+        </div>
+        <div class="header__show-favorites">
+            <div class="show-favorites__checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="checkbox__checkmark"></span>
+            </div>
+            <span class="show-favorites__text">Mostrar meus filmes favoritos apenas</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="movies">
+            <ul class="movies__list">
+            </ul>
+        </section>
+    </main>
+
+    <script src="./assets/js/favoriteMovie.js"></script>
+    <script src="./assets/js/movies.js" type="module"></script>
+</body>
+
+</html>
