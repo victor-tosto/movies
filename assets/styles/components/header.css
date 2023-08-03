@@ -55,17 +55,29 @@
 }
 
 .checkbox__input {
-    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
 }
 
 .checkbox__checkmark {
     position: absolute;
+    z-index: -1;
     top: 10%;
     left: 10%;
     border: 2px solid var(--checkbox);
     width: 1.6rem;
     height: 1.6rem;
     border-radius: 0.4rem;
+}
+
+.checkbox__checkmark.active {
+    background-color: var(--checkbox);
+}
+
+.show-favorites__checkbox.active {
+    background-image: url('../../img/check.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .show-favorites__text {

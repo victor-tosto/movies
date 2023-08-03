@@ -67,11 +67,6 @@
 
 .favorite__image {
     cursor: pointer;
-    fill: transparent;
-}
-
-.favorite__image.active {
-    fill: var(--red);
 }
 
 .movie__synopsis {
