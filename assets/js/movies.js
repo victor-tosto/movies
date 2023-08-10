@@ -105,7 +105,7 @@ function createMovieCard(movie) {
     movieRateContainer.appendChild(movieFavorite);
     
     const favoriteImage = document.createElement('img');
-    favoriteImage.src = isFavorited ? '/assets/img/heart-fill.svg' : '/assets/img/heart.svg';
+    favoriteImage.src = isFavorited ? '/assets/img/heart-fill.svg' : '/assets/img/Heart.svg';
     favoriteImage.alt = 'Heart';
     favoriteImage.classList.add('favorite__image');
     favoriteImage.addEventListener('click', e => favoriteButtonPressed(e, movie));
