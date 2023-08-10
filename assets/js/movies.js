@@ -129,7 +129,7 @@ function showFavorites() {
 function favoriteButtonPressed(event, movie) {
     const favoriteState = {
       favorited: '/assets/img/heart-fill.svg',
-      notFavorited: '/assets/img/heart.svg'
+      notFavorited: '/assets/img/Heart.svg'
     }
   
     if(event.target.src.includes(favoriteState.notFavorited)) {
