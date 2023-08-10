@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img alt="Status Em Desenvolvimento" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge">
+  <img alt="Status Concluído" src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge">
 </p>
 
 <br>
@@ -30,10 +30,15 @@
 
 - [X] Dia 1: Construir todo o layout da página de maneira estática
 - [X] Dia 2: Manipular o DOM para apresentar os cards dos filmes na tela de maneira dinâmica
+- [X] Dia 3: Consumir a API para exibir a lista de filmes populares
+- [X] Dia 4: Tornar a barra de pesquisa funcional e apresentar os filmes que o usúario pesquisar
+- [X] Dia 5: Salvar o filme favoritado no LocalStorage
+- [X] Dia 6: Apresentar apenas o filmes favoritados ao marcar o checkbox
+- [X] Dia 7: Refatoração e deploy do projeto     
 
 ## 📁 Acesso ao projeto
 
-<p>Projeto em desenvolvimento</p>
+<p>Para visualizar a versão atual do projeto é só<a href=""> "Clicar aqui".</a>🚀</p>
 
 ## 👨‍💻 Autor
 
